@@ -1,0 +1,136 @@
+/*pagina de inicio*/
+*{margin: 0;
+  padding: 0;
+}
+
+
+header{
+    background-color: #F0B5B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+header nav {
+    width: 100%; 
+}
+    
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+}
+  
+
+.h1index{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 30px 0 5px 0;
+}
+/*
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 30px 0 5px 0;
+}
+*/
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 20px;
+
+}
+
+/*Seccion*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+section img {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+section h2 {
+    
+    margin-top: 50px;
+    color: #F0B5B1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-bottom: 0;  
+}
+
+section p {
+    color: #F0B5B1;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+   /*Footer*/
+
+
+footer {
+        background-color: #F0B5B1;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+}
+
+
+    
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; 
+}
+
+footer ul li {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 0 20px;
+}
+
+
+/*Cuentos*/
+
+.h3cuento{
+    margin-top: 50px;
+    color: #F0B5B1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.titulos { 
+    text-decoration: none;     
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 30px 0 5px 0;
+}
+
+.atextonone{
+    text-decoration: none;
+}
